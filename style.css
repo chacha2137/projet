@@ -305,6 +305,13 @@ footer > button:active {
   object-fit: cover;
 }
 
+@media (max-width: 500px) {
+  .accueil section img {
+    width: auto;
+    height: 100px;
+  }
+}
+
 figure {
   position: relative;
   border-radius: 5px;
@@ -344,6 +351,12 @@ figure div {
   font-family: "courier new", sans-serif;
   box-shadow: 0 5px 10px rgba(0,0,0,0.3);
 } 
+
+@media (max-width: 500px) {
+  .accueil figure div {
+    font-size: 0.5em;
+  }
+}
 
 figure:hover img {
   opacity: 0;
@@ -1614,4 +1627,5 @@ label[for="temps"] {
     font-size: 1em;
   }
 }
+
 
