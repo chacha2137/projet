@@ -912,6 +912,12 @@ th>div:hover>div {
     opacity: 1;
 }
 
+@media (max-width: 400px) {
+  table {
+    font-size: 0.5em;
+  }
+}
+
 .exploration section {
   display: flex;
   margin-top: 100px;
@@ -1608,3 +1614,4 @@ label[for="temps"] {
     font-size: 1em;
   }
 }
+
